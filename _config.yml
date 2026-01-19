@@ -23,7 +23,7 @@ repository               : ""
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/my-avatar.jpg"
+  avatar           : "my-avatar.jpg"
   name             : "Guanlin Li"
   pronouns         : # example: "she/her"  
   bio              : "PhD student"
