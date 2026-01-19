@@ -246,6 +246,26 @@
   text-transform: uppercase;
 }
 
+.publication-figures {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 8px 0;
+  scroll-snap-type: x mandatory;
+}
+
+.publication-figure {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}
+
+.publication-figure img {
+  display: block;
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+}
+
 
 /*
    Page taxonomy

@@ -90,7 +90,7 @@
           <div class="publication-figures">
             {% for file in folder_files %}
               <figure class="publication-figure">
-                <img src="{{ file.path | uri_escape }}" alt="Publication figure" style="max-width: 520px; width: 100%; height: auto;" />
+                <img src="{{ file.path | prepend: base_path | uri_escape }}" alt="Publication figure" style="max-width: 520px; width: 100%; height: auto;" />
               </figure>
             {% endfor %}
           </div>
@@ -104,7 +104,7 @@
           {% for fig in figures_list %}
             {% assign figure_name = fig | strip %}
             {% if figure_name != "" %}
-              {% assign figure_src = figures_base | append: "/" | append: figure_name | uri_escape %}
+              {% assign figure_src = figures_base | append: "/" | append: figure_name | prepend: base_path | uri_escape %}
               <figure class="publication-figure">
                 <img src="{{ figure_src }}" alt="Publication figure" style="max-width: 520px; width: 100%; height: auto;" />
               </figure>
