@@ -56,7 +56,7 @@ layout: default
             <div class="publication-figures">
               {% for file in folder_files %}
                 <figure class="publication-figure">
-                  <img src="{{ file.path | prepend: base_path | replace: " ", "%20" }}" alt="Publication figure" style="max-width: 520px; width: 100%; height: auto;" />
+                  <img src="{{ file.path | prepend: base_path | replace: " ", "%20" }}" alt="Publication figure" class="publication-figure__img" />
                 </figure>
               {% endfor %}
             </div>
@@ -72,7 +72,7 @@ layout: default
               {% if figure_name != "" %}
                 {% assign figure_src = figures_base | append: "/" | append: figure_name | prepend: base_path | replace: " ", "%20" %}
                 <figure class="publication-figure">
-                  <img src="{{ figure_src }}" alt="Publication figure" style="max-width: 520px; width: 100%; height: auto;" />
+                  <img src="{{ figure_src }}" alt="Publication figure" class="publication-figure__img" />
                 </figure>
               {% endif %}
             {% endfor %}
