@@ -47,6 +47,38 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% assign figures_input = page.figures | default: page.figure %}
+        {% assign figures_base = page.figures_path | default: "/images/publication_figures" %}
+        {% if page.figures_folder %}
+          {% assign folder_path = page.figures_folder | append: "/" %}
+          {% assign folder_files = site.static_files | where_exp: "file", "file.path contains folder_path" %}
+          {% if folder_files.size > 0 %}
+            <div class="publication-figures">
+              {% for file in folder_files %}
+                <figure class="publication-figure">
+                  <img src="{{ file.path | uri_escape }}" alt="Publication figure" style="max-width: 520px; width: 100%; height: auto;" />
+                </figure>
+              {% endfor %}
+            </div>
+          {% endif %}
+        {% elsif figures_input %}
+          {% assign figures_list = figures_input %}
+          {% if figures_input contains "," %}
+            {% assign figures_list = figures_input | split: "," %}
+          {% endif %}
+          <div class="publication-figures">
+            {% for fig in figures_list %}
+              {% assign figure_name = fig | strip %}
+              {% if figure_name != "" %}
+                {% assign figure_src = figures_base | append: "/" | append: figure_name | uri_escape %}
+                <figure class="publication-figure">
+                  <img src="{{ figure_src }}" alt="Publication figure" style="max-width: 520px; width: 100%; height: auto;" />
+                </figure>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
