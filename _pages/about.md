@@ -9,7 +9,7 @@ redirect_from:
 
 PhD Researcher in Human–Computer Interaction  
 Lancaster University, UK  
-Supervised by Hans Gellersen "https://www.gemini-erc.org/"
+Supervised by [Hans Gellersen](https://www.gemini-erc.org/)
 
 Welcome to my personal research website.
 
