@@ -8,4 +8,5 @@ date: 2023-10-01
 location: "Lancaster, UK"
 ---
 
-From 2023 to 2025 each year
+From 2023 to 2025 3-year experience
+We present and explain the coursework in the workshop.
