@@ -7,5 +7,5 @@ date: 2026-04-01
 venue: "2026 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)"
 citation: ""
 figures_folder: "/images/publication_figures/StrainGain_head_pointing_figures"
-paperurl: "{{ site.baseurl }}/guanlinli.github.io/files/_Guanlin___IEEE_VR_Workshop__StrainGain_Head_cursor.pdf"
+paperurl: "/guanlinli.github.io/files/_Guanlin___IEEE_VR_Workshop__StrainGain_Head_cursor.pdf"
 ---
