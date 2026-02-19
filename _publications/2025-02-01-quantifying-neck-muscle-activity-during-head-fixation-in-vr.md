@@ -12,7 +12,6 @@ figures_folder: "/images/publication_figures/Quantifying_neck"
 youtube_id: "L9QbH5mKYP8"
 paperurl: "https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2025.1682866/full"
 excerpt: "This study provides the first empirical characterisation of neck muscle activity during head fixation in a seated VR task using surface electromyography (sEMG). Results show how muscle workload increases with rotation angle and exhibits distinct temporal dynamics."
-youtube_id: "L9QbH5mKYP8"
 ---
 
 ## Abstract
