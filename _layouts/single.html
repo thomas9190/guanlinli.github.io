@@ -47,6 +47,12 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% if page.youtube_id %}
+          <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/{{ page.youtube_id }}" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        {% endif %}
+
         {% assign figures_input = page.figures | default: page.figure %}
         {% assign figures_base = page.figures_path | default: "/images/publication_figures" %}
         {% if page.figures_folder %}
