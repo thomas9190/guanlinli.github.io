@@ -3,6 +3,23 @@
 <meta charset="utf-8">
 
 {% include seo.html %}
+{% include ai-seo.html %}
+
+{% if page.collection == 'publications' %}
+  <!-- Google Scholar / Academic SEO Metadata -->
+  <meta name="citation_title" content="{{ page.title }}">
+  {% if page.authors %}
+    {% for author in page.authors %}
+      <meta name="citation_author" content="{{ author }}">
+    {% endfor %}
+  {% else %}
+    <meta name="citation_author" content="{{ site.author.name }}">
+  {% endif %}
+  <meta name="citation_publication_date" content="{{ page.date | date: "%Y/%m/%d" }}">
+  <meta name="citation_online_date" content="{{ page.date | date: "%Y/%m/%d" }}">
+  {% if page.venue %}<meta name="citation_conference_title" content="{{ page.venue }}">{% endif %}
+  {% if page.paperurl %}<meta name="citation_pdf_url" content="{{ page.paperurl | prepend: site.url }}">{% endif %}
+{% endif %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 

@@ -1,0 +1,54 @@
+<!-- AI & LLM Search Engine Optimization (JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author.name }}",
+  "url": "{{ site.url }}{{ site.baseurl }}/",
+  "jobTitle": "{{ site.author.bio }}",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "{{ site.author.employer }}"
+  },
+  "description": "{{ site.description }}",
+  "sameAs": [
+    "{{ site.author.googlescholar }}",
+    "https://orcid.org/{{ site.author.orcid }}",
+    "https://github.com/{{ site.author.github }}",
+    "{{ site.author.linkedin }}"
+  ],
+  "knowsAbout": [
+    "Human-Computer Interaction",
+    "Virtual Reality",
+    "Augmented Reality",
+    "Ergonomics",
+    "HMD",
+    "Interaction Techniques",
+    "User Studies"
+  ]
+}
+</script>
+
+{% if page.collection == 'publications' %}
+<!-- Scholar SEO -->
+<meta name="citation_title" content="{{ page.title }}">
+<meta name="citation_author" content="{{ site.author.name }}">
+<meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">
+{% if page.venue %}<meta name="citation_conference_title" content="{{ page.venue }}">{% endif %}
+{% if page.paperurl %}<meta name="citation_pdf_url" content="{{ page.paperurl }}">{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": "{{ page.title }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.author.name }}"
+  },
+  "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+  "description": "{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+  "url": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+}
+</script>
+{% endif %}

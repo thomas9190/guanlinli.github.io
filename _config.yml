@@ -12,11 +12,11 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Guanlin Li"
 title_separator          : "-"
 name                     : &name "Guanlin Li"
-description              : &description "Guanlin's personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://thomas9190.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+description              : &description "Guanlin Li is a PhD Researcher in Human-Computer Interaction (HCI) at Lancaster University, specializing in VR/AR ergonomics, head-mounted display (HMD) interaction, and immersive sensing."
+url                      : "https://guanlinli.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "/guanlinli.github.io" # the subpath of your site, e.g. "/blog"
-repository               : ""
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "guanlinli/guanlinli.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -26,7 +26,7 @@ author:
   avatar           : "my-avatar2.jpg"
   name             : "Guanlin Li"
   pronouns         : # example: "she/her"  
-  bio              : "PhD student"
+  bio              : "PhD Researcher in HCI"
   location         : "Lancaster, UK"
   employer         : "Lancaster University"
   uri              : https://www.lancaster.ac.uk/scc/about-us/people/guanlin-li
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # "academicpages"
+  github           : "guanlinli"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
