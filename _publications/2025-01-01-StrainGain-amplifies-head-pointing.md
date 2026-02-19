@@ -14,5 +14,3 @@ excerpt: "StrainGain is a novel interaction technique that uses neck strain (mea
 ## Abstract
 
 StrainGain is a novel interaction technique that uses neck strain (measured via sEMG) to dynamically adjust the control-display gain of head-pointing cursors in VR, improving targeting speed and precision. By sensing the muscle effort exerted by the user, the system can provide more responsive and comfortable interaction for targets across the immersive field of view.
-
-[Download PDF](/files/Guanlin___IEEE_VR_Workshop__StrainGain_Head_cursor.pdf)
