@@ -10,7 +10,7 @@ doi: "10.3389/frvir.2025.1682866"
 citation: "Li, G., Weidner, F., Hu, J., and Gellersen, H. (2025). Quantifying Neck Muscle Activity During Head Fixation in VR. Frontiers in Virtual Reality, 6, 1682866."
 figures_folder: "/images/publication_figures/Quantifying_neck"
 youtube_id: "L9QbH5mKYP8"
-paperurl: "https://www.frontiersin.org/journals/virtual-reality/articles/10.3389/frvir.2025.1682866/full"
+paperurl: "/files/Quantifying%20neck%20muscle%20activity%20during%20head%20fixation%20in%20VR.pdf"
 excerpt: "This study provides the first empirical characterisation of neck muscle activity during head fixation in a seated VR task using surface electromyography (sEMG). Results show how muscle workload increases with rotation angle and exhibits distinct temporal dynamics."
 ---
 
