@@ -8,6 +8,7 @@ venue: "IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and 
 authors: "Guanlin Li, Florian Weidner, Hans Gellersen"
 citation: "Li, G., Weidner, F., and Gellersen, H. (2025). StrainGain: Neck Strain Amplifies Head Pointing in VR. 2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)."
 paperurl: "/files/Guanlin___IEEE_VR_Workshop__StrainGain_Head_cursor.pdf"
+youtube_id: "JP2sVyJMLw0"
 excerpt: "StrainGain is a novel interaction technique that uses neck strain (measured via sEMG) to dynamically adjust the control-display gain of head-pointing cursors in VR, improving targeting speed and precision."
 ---
 
