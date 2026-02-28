@@ -2,6 +2,16 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "alternateName": "{{ site.author.name }}",
+  "url": "{{ site.url }}{{ site.baseurl }}/"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
   "@type": "Person",
   "name": "{{ site.author.name }}",
   "url": "{{ site.url }}{{ site.baseurl }}/",
@@ -13,7 +23,7 @@
   "description": "{{ site.description }}",
   "sameAs": [
     "{{ site.author.googlescholar }}",
-    "https://orcid.org/{{ site.author.orcid }}",
+    "{{ site.author.orcid }}",
     "https://github.com/{{ site.author.github }}",
     "{{ site.author.linkedin }}"
   ],
