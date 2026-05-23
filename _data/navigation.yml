@@ -23,8 +23,8 @@ main:
   - title: "Blog"
     url: /blog/
 
-  - title: "Opinion"
-    url: /opinion/
+  - title: "Essays"
+    url: /essays/
     
   # - title: "CV"
     # url: /cv/

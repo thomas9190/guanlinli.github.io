@@ -3,7 +3,9 @@ title: "AI Disclosure Without Protection: A Governance Gap in Scholarly Peer Rev
 date: 2026-05-20
 permalink: /posts/2026/05/ai-disclosure-without-protection/
 categories:
-  - opinion
+  - essays
+essay_image: "/images/posts/AI_Disclosure_Peer_Review_Gaps.png"
+essay_image_alt: "AI Disclosure: The Governance Gap in Peer Review"
 tags:
   - AI Disclosure
   - Generative AI
@@ -13,6 +15,8 @@ tags:
   - Scholarly Publishing Policy
 excerpt: "A preprint on the governance gap between author-side AI disclosure obligations and reviewer-side procedural safeguards in scholarly peer review."
 ---
+
+![AI Disclosure: The Governance Gap in Peer Review]({{ site.baseurl }}/images/posts/AI_Disclosure_Peer_Review_Gaps.png)
 
 My preprint, **"AI Disclosure Without Protection: A Governance Gap in Scholarly Peer Review,"** is now available on Research Square.
 
