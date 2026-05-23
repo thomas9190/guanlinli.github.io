@@ -30,5 +30,5 @@ I graduated from **University College London (UCL)** in 2021 with an **MSc in Co
 
 ## News
 - **[Feb 2025]** Our paper *"Quantifying neck muscle activity during head fixation in VR"* is out! Check it out in the Publications section.
-- **[Jan 2025]** Excited to announce *"StrainGain amplifies head pointing"*!
+- **[May 2026]** Excited to announce *"StrainGain amplifies head pointing"*!
 - **[Aug 2024]** Successfully completed the summer user study on HMD ergonomics.
