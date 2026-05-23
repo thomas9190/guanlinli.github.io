@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Guanlin Li"
+title: "Guanlin X. Li"
 excerpt: "Guanlin Li is a PhD Researcher in Human-Computer Interaction (HCI) at Lancaster University, UK. His research focuses on HMD ergonomics, XR interaction techniques, and user studies."
 author_profile: true
 redirect_from: 
@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-# Guanlin Li
+# Guanlin X. Li
 
 **PhD Researcher in Human–Computer Interaction (HCI)**  
 **Lancaster University, UK**  
