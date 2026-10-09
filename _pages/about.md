@@ -29,6 +29,7 @@ I graduated from **University College London (UCL)** in 2021 with an **MSc in Co
 - **Prototyping & Sensing**: Developing custom hardware and software for HCI research.
 
 ## News
-- **[Feb 2025]** Our paper *"Quantifying neck muscle activity during head fixation in VR"* is out! Check it out in the Publications section.
+- **[Oct 2026]** Our paper *"NeckErgonomics: Adapting Head Rotation in HMDs with Predicted Neck Muscle Activity"* will be presented at ACM SUI 2026 in Bari! It adapts head pointing, reading and 360° video using predicted neck muscle activity. See the Publications section.
 - **[May 2026]** Excited to announce *"StrainGain amplifies head pointing"*!
+- **[Feb 2025]** Our paper *"Quantifying neck muscle activity during head fixation in VR"* is out! Check it out in the Publications section.
 - **[Aug 2024]** Successfully completed the summer user study on HMD ergonomics.
