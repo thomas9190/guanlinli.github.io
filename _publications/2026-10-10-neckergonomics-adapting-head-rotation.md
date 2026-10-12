@@ -10,6 +10,7 @@ doi: "10.1145/3822518.3830042"
 citation: "Li, G. X., Weidner, F., Khan, A. A., Wang, H., Hu, J., and Gellersen, H. (2026). NeckErgonomics: Adapting Head Rotation in HMDs with Predicted Neck Muscle Activity. In ACM Symposium on Spatial User Interaction (SUI '26)."
 paperurl: "/files/NeckErgonomics-SUI-2026-preprint.pdf"
 figures_folder: "/images/publication_figures/NeckErgonomics"
+youtube_id: "1W1K8HmTC00"
 externalurl: "https://doi.org/10.1145/3822518.3830042"
 excerpt: "NeckErgonomics adapts head-mounted display interactions using predicted neck muscle activity, reducing head movement, sustained rotation, and perceived physical demand across three VR tasks."
 ---
