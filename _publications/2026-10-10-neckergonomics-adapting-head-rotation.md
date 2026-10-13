@@ -11,6 +11,7 @@ citation: "Li, G. X., Weidner, F., Khan, A. A., Wang, H., Hu, J., and Gellersen,
 paperurl: "/files/NeckErgonomics-SUI-2026-preprint.pdf"
 figures_folder: "/images/publication_figures/NeckErgonomics"
 youtube_id: "1W1K8HmTC00"
+award: "Best Paper Award – Honourable Mention, ACM SUI 2026"
 externalurl: "https://doi.org/10.1145/3822518.3830042"
 excerpt: "NeckErgonomics adapts head-mounted display interactions using predicted neck muscle activity, reducing head movement, sustained rotation, and perceived physical demand across three VR tasks."
 ---
@@ -24,3 +25,9 @@ We demonstrate NeckErgonomics through three model-informed applications: control
 [Open PDF in browser]({{ site.baseurl }}/files/NeckErgonomics-SUI-2026-preprint.pdf){:target="_blank" rel="noopener"}
 
 [View publication record](https://doi.org/10.1145/3822518.3830042){:target="_blank" rel="noopener"}
+
+## Award
+
+NeckErgonomics received a **Best Paper Award – Honourable Mention** at ACM SUI 2026 in Bari, Italy.
+
+![Best Paper Award – Honourable Mention certificate from ACM SUI 2026]({{ site.baseurl }}/images/news/sui2026-honourable-mention.jpg)
