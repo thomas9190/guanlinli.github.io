@@ -8,6 +8,7 @@ venue: "IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and 
 authors: "Guanlin Li, Florian Weidner, Hans Gellersen"
 citation: "Li, G., Weidner, F., and Gellersen, H. (2026). StrainGain: Neck Strain Amplifies Head Pointing in VR. 2026 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)."
 figures_folder: "/images/publication_figures/StrainGain_head_pointing_figures"
+teaser: "/images/publication_figures/StrainGain_head_pointing_figures/teaser-head-point3.png"
 paperurl: "/files/Guanlin___IEEE_VR_Workshop__StrainGain_Head_cursor.pdf"
 externalurl: "https://ieeexplore.ieee.org/abstract/document/11489897"
 youtube_id: "JP2sVyJMLw0"

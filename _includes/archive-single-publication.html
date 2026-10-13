@@ -1,0 +1,40 @@
+{% include base_path %}
+
+{% assign teaser_src = nil %}
+{% if post.teaser %}
+  {% assign teaser_src = post.teaser %}
+{% elsif post.figures_folder %}
+  {% assign folder_path = post.figures_folder | append: "/" %}
+  {% assign folder_files = site.static_files | where_exp: "file", "file.path contains folder_path" %}
+  {% if folder_files.size > 0 %}{% assign teaser_src = folder_files.first.path %}{% endif %}
+{% endif %}
+
+{% assign paper_href = post.paperurl %}
+{% if paper_href and paper_href contains "://" %}{% assign paper_is_pdf = false %}{% else %}{% assign paper_href = paper_href | prepend: base_path %}{% assign paper_is_pdf = true %}{% endif %}
+{% if post.doi %}{% assign record_href = "https://doi.org/" | append: post.doi %}{% else %}{% assign record_href = post.externalurl %}{% endif %}
+{% assign slides_href = post.slidesurl %}
+{% if slides_href %}{% unless slides_href contains "://" %}{% assign slides_href = slides_href | prepend: base_path %}{% endunless %}{% endif %}
+
+{% assign authors = post.authors | replace: "Guanlin X. Li", "<strong>Guanlin X. Li</strong>" | replace: "Guanlin Li", "<strong>Guanlin Li</strong>" %}
+
+<article class="pub-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <a class="pub-item__thumb" href="{{ base_path }}{{ post.url }}" aria-hidden="true" tabindex="-1">
+    {% if teaser_src %}
+      <img src="{{ teaser_src | prepend: base_path | replace: " ", "%20" }}" alt="" loading="lazy" />
+    {% else %}
+      <span class="pub-item__thumb-year">{{ post.date | date: "%Y" }}</span>
+    {% endif %}
+  </a>
+  <div class="pub-item__body">
+    <h2 class="pub-item__title" itemprop="headline"><a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ post.title }}</a></h2>
+    {% if post.authors %}<p class="pub-item__authors">{{ authors }}</p>{% endif %}
+    <p class="pub-item__venue"><i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}</p>
+    <p class="pub-item__links">
+      {% if post.paperurl %}<a class="pub-link" href="{{ paper_href }}">{% if paper_is_pdf %}PDF{% else %}Paper{% endif %}</a>{% endif %}
+      {% if record_href %}<a class="pub-link" href="{{ record_href }}">{% if post.doi %}DOI{% else %}Publisher{% endif %}</a>{% endif %}
+      {% if post.youtube_id %}<a class="pub-link" href="https://youtu.be/{{ post.youtube_id }}">Video</a>{% endif %}
+      {% if slides_href %}<a class="pub-link" href="{{ slides_href }}">Slides</a>{% endif %}
+      <a class="pub-link" href="{{ base_path }}{{ post.url }}">Details</a>
+    </p>
+  </div>
+</article>

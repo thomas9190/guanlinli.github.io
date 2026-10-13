@@ -14,5 +14,5 @@ author_profile: true
 <!-- All publications in one list, newest first -->
 {% assign pubs = site.publications | sort: "date" | reverse %}
 {% for post in pubs %}
-  {% include archive-single.html %}
+  {% include archive-single-publication.html %}
 {% endfor %}
