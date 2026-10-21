@@ -13,9 +13,9 @@ title                    : "Guanlin X. Li"
 title_separator          : "-"
 name                     : &name "Guanlin X. Li"
 description              : &description "Guanlin Li is a PhD Researcher in Human-Computer Interaction (HCI) at Lancaster University, specializing in VR/AR ergonomics, head-mounted display (HMD) interaction, and immersive sensing."
-url                      : "https://thomas9190.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://gxl.qd.je" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "/guanlinli.github.io" # the subpath of your site, e.g. "/blog"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "thomas9190/guanlinli.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
