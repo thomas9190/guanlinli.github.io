@@ -5,6 +5,9 @@
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
+{% if site.legacy_redirect_url %}
+  {% assign seo_url = site.legacy_redirect_url %}
+{% endif %}
 
 {% if page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}

@@ -1,3 +1,11 @@
+# Website moved
+
+The live website is now at https://thomas9190.github.io/.
+Edit website content in https://github.com/thomas9190/thomas9190.github.io.
+This repository retains the old pages and downloads so existing links keep working.
+Its HTML pages redirect to the corresponding paths on the new website, with an
+immediate meta refresh and a JavaScript redirect that preserves query strings and fragments.
+
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
 
