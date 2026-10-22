@@ -1,10 +1,21 @@
-# Website moved
+# 旧网站仓库 / Legacy website repository
 
-The live website is now at https://thomas9190.github.io/.
-Edit website content in https://github.com/thomas9190/thomas9190.github.io.
-This repository retains the old pages and downloads so existing links keep working.
-Its HTML pages redirect to the corresponding paths on the new website, with an
-immediate meta refresh and a JavaScript redirect that preserves query strings and fragments.
+> **这里是旧仓库，仅用于保留旧链接和网页跳转。网站内容更新请到新仓库操作。**
+> **This is the legacy repository. Make website content changes in the new repository below.**
+
+| 用途 / Purpose | 地址 / Location |
+| --- | --- |
+| 当前网站 / Live website | https://thomas9190.github.io/ |
+| 新仓库（内容更新处）/ Active repository | https://github.com/thomas9190/thomas9190.github.io |
+| 新仓库本地目录 / Active local checkout | `D:\Python project\thomas9190.github.io` |
+| 旧仓库（本仓库）/ Legacy repository | https://github.com/thomas9190/guanlinli.github.io |
+| 旧网站入口 / Legacy website | https://thomas9190.github.io/guanlinli.github.io/ |
+
+后续 agent 请先阅读 [AGENTS.md](AGENTS.md)。个人资料、论文、文章、图片、样式和新文件等日常更新，均应在新仓库完成；即使当前工作目录是本仓库，也应先切换到新仓库。
+
+本仓库及其 GitHub Pages 需要继续保留，以便已有链接继续生效。旧 HTML 网页通过立即刷新和 JavaScript 跳到新网站的对应路径，JavaScript 同时保留查询参数和页内定位。旧 PDF 等静态下载仍由本仓库直接提供；如果需要让旧下载链接也提供新版文件，应单独同步对应文件。
+
+Keep this repository and its GitHub Pages enabled for existing links. Its HTML pages redirect to the matching paths on the new website; static downloads remain served here. Routine website development belongs in the active repository above.
 
 # Academic Pages
 **Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
