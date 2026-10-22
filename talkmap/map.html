@@ -1,7 +1,13 @@
-
+---
+layout: null
+---
     <!DOCTYPE html>
     <html>
     <head>
+    {% if site.legacy_redirect_url %}
+      {% include legacy-redirect.html %}
+      <link rel="canonical" href="{{ page.url | prepend: site.legacy_redirect_url }}">
+    {% endif %}
     	<title>Leaflet debug page</title>
 
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.0-beta.2/leaflet.css" />
